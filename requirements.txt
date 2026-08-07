@@ -3,7 +3,7 @@
 # dependencies. Do NOT use these versions in a real project.
  
 requests==2.19.1        # CVE-2018-18074 (credential/Proxy-Authorization leak on redirect)
-urllib3==1.24.1         # CVE-2019-11324 (CA cert validation issue)
+urllib3==2.7.0         # CVE-2019-11324 (CA cert validation issue)
 Flask==0.12.2           # CVE-2019-1010083 (DoS via crafted request)
 Jinja2==2.10            # CVE-2019-10906 (sandbox escape)
 PyYAML==5.1             # CVE-2020-1747 / CVE-2020-14343 (unsafe load / RCE)
