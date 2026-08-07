@@ -2,7 +2,7 @@
 # validate that Mend SCA correctly detects vulnerable open-source
 # dependencies. Do NOT use these versions in a real project.
  
-requests==2.19.1        # CVE-2018-18074 (credential/Proxy-Authorization leak on redirect)
+requests==2.32.4        # CVE-2018-18074 (credential/Proxy-Authorization leak on redirect)
 urllib3==1.24.1         # CVE-2019-11324 (CA cert validation issue)
 Flask==0.12.2           # CVE-2019-1010083 (DoS via crafted request)
 Jinja2==2.10            # CVE-2019-10906 (sandbox escape)
